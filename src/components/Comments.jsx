@@ -40,7 +40,7 @@ function Comments({ article_id }) {
                   </div>
                   <p className="comment-body">{comment.body}</p>
                   <div className="comment-votes">
-                    <p><strong>Votes:</strong> {comment.votes}</p>
+                    <p>Votes: {comment.votes}</p>
                   </div>
                 </li>
               ))}
