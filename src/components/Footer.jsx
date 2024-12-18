@@ -1,12 +1,14 @@
 function Footer() {
-    return (
-      <>
-        <a className="footer">About</a>
-        <a className="footer">Contact Us</a>
-        <a className="footer">Github</a>
-        <a className="footer">Visit Our Instagram Page</a>
-      </>
-    );
-  }
-  
-  export default Footer;
+  return (
+    <>
+      <div className="footer">
+      <a className="footer-item">About</a>
+      <a className="footer-item">Contact Us</a>
+      <a className="footer-item">Github</a>
+      <a className="footer-item">Visit Our Instagram Page</a>
+      </div>
+    </>
+  );
+}
+
+export default Footer;
