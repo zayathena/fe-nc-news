@@ -3,7 +3,7 @@ function Header() {
   return (
     <>
     <header className="header">
-        <h1 >NC News</h1>
+        <h1 className="h1">NC News</h1>
         <nav className="nav-bar">
             <a className="nav-item">Home</a>
             <a className="nav-item">Topics</a>

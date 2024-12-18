@@ -5,11 +5,13 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color:rgb(83, 83, 83);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: auto;
 }
 
 *{
-  margin: 0;
-  padding: 0;
   color: white;
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +32,7 @@ body {
   margin-bottom: 0;
 }
 
+
 .nav-bar {
   position: fixed;
   top: 137px;
@@ -37,8 +40,7 @@ body {
   justify-content: space-around; 
   align-items: center; 
   padding: 10px;
-  
-  height:80px;
+  height:140px;
   margin-top: 0;
 }
 
@@ -47,7 +49,7 @@ body {
   color: white; 
   text-decoration: none; 
   border: 1px solid white;
-  padding: 8px 15px;
+  padding: 12px 35px;
   margin: 0 10px; 
   border-radius: 5px;
   width: 100%;
@@ -153,6 +155,14 @@ body {
   display: block;
 }
 
+.single-article {
+  max-height: none;
+  padding: 20px; 
+  overflow-y: visible;
+  overflow-y: auto; 
+    max-height: 100vh;
+}
+
 .article-img {
   height: 200px;
   width: 200px;
@@ -168,4 +178,12 @@ body {
   margin-top: 180px;
   margin-bottom: 20px;
   font-style: normal;
+  overflow-y: auto; 
+  max-height: 100vh;
+}
+
+.single-article-body {
+    overflow-y: auto; 
+    max-height: 100vh;
+    font-size:xx-small;
 }

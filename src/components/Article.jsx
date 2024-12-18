@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { fetchArticleCard } from "../api";
 import loadingAnimation from '../assets/loadingAnimation.json'
 import Lottie from "lottie-react"
+import Comments from "./Comments";
 
 function Article() {
   const { article_id } = useParams();
@@ -36,6 +37,7 @@ function Article() {
       <img className="article-img" src={article.article_img_url} alt={article.title} />
       <p className="single-article-topic">{article.topic}</p>
       <p className="single-article-body">{article.body}</p>
+      <Comments article_id={article_id} />
     </div>
   );
 }
