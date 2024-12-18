@@ -10,8 +10,8 @@ export const fetchArticles = () => {
     });
   };
 
-export const fetchArticleCard = (articleId) => {
-    return ncNewsApi.get(`/articles/${articleId}`).then(({ data }) => {
+export const fetchArticleCard = (article_id) => {
+    return ncNewsApi.get(`/articles/${article_id}`).then(({ data }) => {
       return data.article;
     });
   };
