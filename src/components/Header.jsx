@@ -1,15 +1,15 @@
-// import { Link } from "react-router";
-
 function Header() {
   return (
     <>
-        <h1 className="header">NC News</h1>
-        <nav className="nav">
-            <a>Home</a>
-            <a>Topics</a>
-            <a>Articles</a>
-            <a>Login</a>
+    <header className="header">
+        <h1 className="h1">NC News</h1>
+        <nav className="nav-bar">
+            <a className="nav-item">Home</a>
+            <a className="nav-item">Topics</a>
+            <a className="nav-item">Articles</a>
+            <a className="nav-item">Login</a>
         </nav>
+        </header>
     </>
   );
 }
